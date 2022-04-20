@@ -1,0 +1,11 @@
+{
+  "name": "odinbook",
+  "version": "1.0.0",
+  "description": "Facebook-esque social media app made for the Odin Project",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Moderiano",
+  "license": "MIT"
+}
