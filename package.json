@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node backend/server.js",
-    "server": "nodemon backend/server.js"
+    "server": "nodemon backend/server.js",
+    "full": "concurrently \"cd frontend && npm run start\" \"npm run dev\""
   },
   "jest": {
     "testPathIgnorePatterns": [
@@ -19,11 +20,11 @@
   "engines": {
     "node": "16.14.0"
   },
-  
   "author": "Daniel Moderiano",
   "license": "MIT",
   "devDependencies": {
     "@faker-js/faker": "^6.0.0-alpha.7",
+    "concurrently": "^7.1.0",
     "jest": "^27.5.1",
     "mongodb-memory-server": "^8.4.0",
     "nodemon": "^2.0.15",
