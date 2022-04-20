@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
-    "full": "concurrently \"cd frontend && npm run start\" \"npm run start\""
+    "full": "concurrently \"cd frontend && npm run start\" \"npm run start\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "jest": {
     "testPathIgnorePatterns": [
