@@ -5,9 +5,9 @@
   "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node backend/server.js",
+    "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
-    "full": "concurrently \"cd frontend && npm run start\" \"npm run dev\""
+    "full": "concurrently \"cd frontend && npm run start\" \"npm run start\""
   },
   "jest": {
     "testPathIgnorePatterns": [
