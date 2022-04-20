@@ -4,8 +4,50 @@
   "description": "Facebook-esque social media app made for the Odin Project",
   "main": "backend/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node backend/server.js",
+    "server": "nodemon backend/server.js"
   },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "__tests__/info.test.js",
+      "db.js"
+    ],
+    "forceExit": true,
+    "testEnvironment": "node"
+  },
+  "engines": {
+    "node": "16.14.0"
+  },
+  
   "author": "Daniel Moderiano",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.7",
+    "jest": "^27.5.1",
+    "mongodb-memory-server": "^8.4.0",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  },
+  "dependencies": {
+    "@azure/cognitiveservices-computervision": "^8.2.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.28.1",
+    "compression": "^1.7.4",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.14.0",
+    "helmet": "^5.0.2",
+    "luxon": "^2.3.1",
+    "mongoose": "^6.2.3",
+    "multer": "^1.4.4",
+    "multer-storage-cloudinary": "^4.0.0",
+    "passport": "^0.5.2",
+    "passport-facebook": "^3.0.0",
+    "passport-local": "^1.0.0"
+  }
 }
