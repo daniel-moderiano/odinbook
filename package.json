@@ -4,7 +4,7 @@
   "description": "Facebook-esque social media app made for the Odin Project",
   "main": "backend/server.js",
   "scripts": {
-    "test": "jest --runInBand --watchAll --verbose",
+    "test": "cd backend/__tests__ && jest --detectOpenHandles --watch",
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
     "full": "concurrently \"cd frontend && npm run start\" \"npm run server\"",
@@ -13,7 +13,7 @@
   "jest": {
     "testPathIgnorePatterns": [
       "__tests__/info.test.js",
-      "db.js"
+      "dbConfig.js"
     ],
     "forceExit": true,
     "testEnvironment": "node"
