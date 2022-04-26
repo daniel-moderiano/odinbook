@@ -1,11 +1,9 @@
 # Odinbook
-This is the parent repository for odinbook that contains a frontend and backend submodule. This repository was created as the base repository for deploying to Heroku and to provide an overall description of the project. Please view the frontend and backend repostories for more detailed information.
+This is the parent repository for [odinbook](https://odinbook-dm.herokuapp.com/), and contains a frontend and backend submodule. This repository was created as the base repository for deploying to Heroku and to provide an overall description of the project. Please view the frontend and backend repostories for more detailed information.
 
-Visit the **[frontend repository »](https://github.com/daniel-moderiano/odinbook-frontend)** 
+Visit the [frontend repository »](https://github.com/daniel-moderiano/odinbook-frontend)
 
-Visit the **[backend repository »](https://github.com/daniel-moderiano/odinbook-backend)** 
-
-<!-- You can also **[visit the website »](https://odinbook-dm.herokuapp.com/)** -->
+Visit the [backend repository »](https://github.com/daniel-moderiano/odinbook-backend)
 
 
 ## About the project
@@ -17,10 +15,10 @@ Visit the **[backend repository »](https://github.com/daniel-moderiano/odinbook
 
 ### Features
 
-* **Robust friend requests:** send, receive, and even cancel or delete friend requests. Operates in a similar Fashion to Facebook's own friend request system.
+* **Friend requests:** send, receive, and even cancel or delete friend requests. Operates in a similar Fashion to Facebook's own friend request system.
 * **Image uploads:** add or update profile pictures, and attach images to your posts. Odinbook also gives image thumbnail previews while working with images.
 * **Demo account:** jump right in and experience all of odinbook's  features by using the entertaining test account. No sign-in required!
-* **Log in with Facebook:** a production-ready 'Log in with Facebook' feature that supports creating new accounts with, and logging in with your Facebook credentials.
+* **Facebook login:** a production-ready 'Log in with Facebook' feature that supports creating new accounts with, and logging in with your Facebook credentials.
 
 ### Technologies used
 
