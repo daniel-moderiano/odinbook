@@ -1,5 +1,5 @@
 # Odinbook
-This is the parent repository for [odinbook](https://odinbook-dm.herokuapp.com/), and contains a frontend and backend submodule. This repository was created as the base repository for deploying to Heroku and to provide an overall description of the project. Please view the frontend and backend repostories for more detailed information.
+This is the parent repository for [odinbook](https://odinbook-dm.herokuapp.com/) - a social media website created as part of [The Odin Project](https://www.theodinproject.com/) NodeJS course. This repository was created as the base repository for deploying to Heroku, and contains a frontend and backend submodule. Please view the frontend and backend repostories for more detailed information. An overview of the project is also found here.
 
 Visit the [frontend repository »](https://github.com/daniel-moderiano/odinbook-frontend)
 
