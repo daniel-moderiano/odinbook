@@ -1,24 +1,16 @@
-# odinbook
-A parent repository containing a frontend and backend submodule. This repository was created as the base repo for Heroku deploy, where the backend also serves the frontend. Click either frontend or backend link in the repo to visit those repositories respectively.
-
+# Odinbook
+This is the parent repository for odinbook that contains a frontend and backend submodule. This repository was created as the base repository for deploying to Heroku and to provide an overall description of the project.
 
 <br /> 
-<div align="center">
+<div align="left">
   <br /> 
-  # odinbook
-  <p align="center">
+  <p align="left">
     Online therapeutic prescriptions for Australian optometrists
     <br />
-    <a href="https://optomrx.net"><strong>Visit the website »</strong></a>
+    <a href="https://odinbook-dm.herokuapp.com"><strong>Visit the website »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/daniel-moderiano/optom-rx/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/daniel-moderiano/optom-rx/issues">Request Feature</a>
   </p>
 </div>
-
-
 
 
 ## About the project
