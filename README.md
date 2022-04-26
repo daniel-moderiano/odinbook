@@ -1,81 +1,42 @@
 # Odinbook
-This is the parent repository for odinbook that contains a frontend and backend submodule. This repository was created as the base repository for deploying to Heroku and to provide an overall description of the project.
+This is the parent repository for odinbook that contains a frontend and backend submodule. This repository was created as the base repository for deploying to Heroku and to provide an overall description of the project. Please view the frontend and backend repostories for more detailed information.
 
-<br /> 
-<div align="left">
-  <br /> 
-  <p align="left">
-    Online therapeutic prescriptions for Australian optometrists
-    <br />
-    <a href="https://odinbook-dm.herokuapp.com"><strong>Visit the website »</strong></a>
-    <br />
-  </p>
-</div>
+Visit the **[frontend repository »](https://github.com/daniel-moderiano/odinbook-frontend)** 
+
+Visit the **[backend repository »](https://github.com/daniel-moderiano/odinbook-backend)** 
+
+<!-- You can also **[visit the website »](https://odinbook-dm.herokuapp.com/)** -->
 
 
 ## About the project
 
-[Odinbook](https://odinbook-dm.herokuapp.com/) is a facebook-esque social media website with the ability to create profiles, make posts and comments, and grow you friend network.   
+[Odinbook](https://odinbook-dm.herokuapp.com/) is a Facebook-esque social media website with the ability to create profiles, make posts and comments, and grow you friend network.
 
 <img src="assets/screenshot.png" alt="Odinbook profile page for Peter Parker" width="100%">
 
 
 ### Features
 
-* **Real-time PBS data:** receive PBS information about your selected medication as your write the prescription. This includes criteria for PBS, max quantity/repeats, and authority information.
-* **Active ingredient prescribing:** automatically adjust your prescription format to meet guidelines for active ingredient prescribing, including support for the List of Excluded Medicinal Items (LEMI) and the List of Medicinal Items for Brand Consideration (LMBC).
-* **Instant re-prescribe:** save any scripts as 'favourites' for quick one-click re-prescribe functionality. Favourites include all medicine details, so just add patient details, and the script is done. Quick and easy.
-* **Multiple prescribers:** OptomRx supports as many prescriber profiles as you need. Perfect for locum work, or those at a single practice only. Switch between prescriber details as needed for each script.
-* **No patient data retention:** patient information is never saved on OptomRx. When you save a script, only non-identifiable information regarding medication and PBS details are retained. OptomRx was and is designed as a prescription writing tool, not a prescription database.
+* **Robust friend requests:** send, receive, and even cancel or delete friend requests. Operates in a similar Fashion to Facebook's own friend request system.
+* **Image uploads:** add or update profile pictures, and attach images to your posts. Odinbook also gives image thumbnail previews while working with images.
+* **Demo account:** jump right in and experience all of odinbook's  features by using the entertaining test account. No sign-in required!
+* **Log in with Facebook:** a production-ready 'Log in with Facebook' feature that supports creating new accounts with, and logging in with your Facebook credentials.
 
 ### Technologies used
 
-* [React](https://reactjs.org/) - Front-end JS framework
-* [Firebase](https://maven.apache.org/) - Back-end as a service (authentication, database, and hosting)
-* [Styled components](https://styled-components.com/) - App-wide custom styling
+Odinbook is a full stack MERN application, using Tailwind CSS for design. Learn more about these technologies below:
 
-## Usage
+* [React](https://reactjs.org/) - Frontend JavaScript framework
+* [Tailwind CSS](https://styled-components.com/) - Frontend CSS styling
+* [NodeJS](https://nodejs.org/en/) - Backend JavaScript runtime
+* [Express](https://expressjs.com/) - Backend NodeJS web application framework
+* [MongoDB](https://nodejs.org/en/) - Application database platform
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-
-### Requirements
-
-A valid Google Places API key is required for Google's autocomplete functionality.
-
-### Installing
-
-First, clone the repository
-
-```
-git clone git@github.com:daniel-moderiano/optom-rx.git
-```
-
-Inside the root directoy, install all dependencies with npm
-
-```
-npm install
-```
-
-Finally, use the following to spin up the project on a development server
-
-```
-npm start
-```
-
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/daniel-moderiano/optom-rx/blob/main/LICENSE) file for details.  
-Authored and maintained by Daniel Moderiano.
 
 ## Acknowledgments
 
-The following resources were a great help throughout the development of OptomRx.
+The following resources were a great help throughout the development of Odinbook.
 
-* [Copy & Paste CSS](https://copy-paste-css.com/)
-* [Paginated Tables in React](https://dev.to/franciscomendes10866/how-to-create-a-table-with-pagination-in-react-4lpd)
-* [Responsive Tables with CSS](https://css-tricks.com/making-tables-responsive-with-minimal-css/)
-* [Web accessibility tutorials](https://www.w3.org/WAI/tutorials/)
-* [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)
-
-Finally, a special thanks to Sarah Smoker for her invaluable design and UI/UX ideas, and endless QA testing.
+* [Randall Deggess](https://copy-paste-css.com/) and his NodeJS/JWT authentication talks
+* [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) for general MERN stack advice
+* [Zach Gollwitzer](https://www.youtube.com/c/ZachGollwitzer) for the best Passport and Express session reference
