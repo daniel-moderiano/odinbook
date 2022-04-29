@@ -8,7 +8,7 @@ Visit the [backend repository »](https://github.com/daniel-moderiano/odinbook-b
 
 ## About the project
 
-[Odinbook](https://odinbook-dm.herokuapp.com/) is a Facebook-esque social media website with the ability to create profiles, make posts and comments, and grow you friend network.
+[Odinbook](https://odinbook-dm.herokuapp.com/) is a Facebook-esque social media website with the ability to create profiles, make posts and comments, and grow your friend network.
 
 <img src="assets/screenshot.png" alt="Odinbook profile page for Peter Parker" width="100%">
 
