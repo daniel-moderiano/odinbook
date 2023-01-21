@@ -29,6 +29,7 @@ Odinbook is a full stack MERN application, using Tailwind CSS for design. Learn 
 * [NodeJS](https://nodejs.org/en/) - Backend JavaScript runtime
 * [Express](https://expressjs.com/) - Backend NodeJS web application framework
 * [MongoDB](https://www.mongodb.com/) - Application database platform
+* [AWS](https://aws.amazon.com/) - Cloud Computing Services
 
 ## Acknowledgments
 
@@ -37,3 +38,4 @@ The following resources were a great help throughout the development of Odinbook
 * [Randall Deggess](https://www.rdegges.com/) and his NodeJS/JWT authentication talks
 * [Traversy Media](https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA) for general MERN stack advice
 * [Zach Gollwitzer](https://www.youtube.com/c/ZachGollwitzer) for the best Passport and Express session reference
+* [Adrian Cantrill](https://learn.cantrill.io/) for in-depth, understanding-focused AWS courses
