@@ -1,7 +1,7 @@
-⚠️ NOTE: Odinbook is currently hosted on [render](https://odinbook-dzwi.onrender.com/) to avoid costs associated with AWS hosting. Deactivated AWS infrastructure remains in place. 
+⚠️ NOTE: [Odinbook](https://odinbook-dzwi.onrender.com/) is now hosted on [render](https://render.com/) to avoid ongoing costs associated with the prior AWS hosting setup. 
 
 # Odinbook
-This is the parent repository for [odinbook](https://odinbook.com/) - a social media website created as part of [The Odin Project](https://www.theodinproject.com/) NodeJS course. This repository was created as the base repository for managing server deployment, and contains a frontend and backend submodule. Please view the frontend and backend repostories for more detailed information. An overview of the project is also found here.
+This is the parent repository for [odinbook](https://odinbook-dzwi.onrender.com/) - a social media website created as part of [The Odin Project](https://www.theodinproject.com/) NodeJS course. This repository was created as the base repository for managing server deployment, and contains a frontend and backend submodule. Please view the frontend and backend repostories for more detailed information. An overview of the project is also found here.
 
 Visit the [frontend repository »](https://github.com/daniel-moderiano/odinbook-frontend)
 
@@ -10,7 +10,7 @@ Visit the [backend repository »](https://github.com/daniel-moderiano/odinbook-b
 
 ## About the project
 
-[Odinbook](https://odinbook.com/) is a Facebook-esque social media website with the ability to create profiles, make posts and comments, and grow your friend network.
+[Odinbook](https://odinbook-dzwi.onrender.com/) is a Facebook-esque social media website with the ability to create profiles, make posts and comments, and grow your friend network.
 
 <img src="assets/screenshot.png" alt="Odinbook profile page for Peter Parker" width="100%">
 
