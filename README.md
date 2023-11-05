@@ -1,3 +1,5 @@
+⚠️ NOTE: Odinbook is currently hosted on [render](https://odinbook-dzwi.onrender.com/) to avoid costs associated with AWS hosting. Deactivated AWS infrastructure remains in place. 
+
 # Odinbook
 This is the parent repository for [odinbook](https://odinbook.com/) - a social media website created as part of [The Odin Project](https://www.theodinproject.com/) NodeJS course. This repository was created as the base repository for managing server deployment, and contains a frontend and backend submodule. Please view the frontend and backend repostories for more detailed information. An overview of the project is also found here.
 
